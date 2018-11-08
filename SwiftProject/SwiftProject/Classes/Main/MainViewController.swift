@@ -12,22 +12,21 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        addChild(HomeTableViewController(), title: "首页", imageName: "")
-        addChild(DiscoverTableViewController(), title: "广场", imageName: "")
-        addChild(MessageTableViewController(), title: "消息", imageName: "")
-        addChild(ProfileTableViewController(), title: "我", imageName: "")
+        addChild(HomeTableViewController(), title: "首页", imageName: "home_icon")
+        addChild(MessageTableViewController(), title: "消息", imageName: "PV_icon")
+        addChild(DiscoverTableViewController(), title: "广场", imageName: "solar_icon")
+        addChild(ProfileTableViewController(), title: "我", imageName: "mine_icon")
 
     }
     
     private func addChild(_ childController: UIViewController, title:String, imageName:String) {
         childController.tabBarItem.image = UIImage(named: imageName)
-        childController.tabBarItem.selectedImage = UIImage(named: imageName + "_highlighted")
+        childController.tabBarItem.selectedImage = UIImage(named: imageName + "_hover")
         childController.title = title
         
         let nav = UINavigationController()
         nav.addChild(childController)
         addChild(nav)
-        
     }
 
 }
