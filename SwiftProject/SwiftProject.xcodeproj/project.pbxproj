@@ -18,6 +18,8 @@
 		BF01F7F92191D0CC008668A4 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01F7F82191D0CC008668A4 /* ProfileTableViewController.swift */; };
 		BF01F7FB2191D0D7008668A4 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01F7FA2191D0D7008668A4 /* DiscoverTableViewController.swift */; };
 		BF01F7FD2191D0E0008668A4 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01F7FC2191D0E0008668A4 /* MessageTableViewController.swift */; };
+		BFB414922196D096005D9B04 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB414902196D096005D9B04 /* NullViewController.swift */; };
+		BFB414932196D096005D9B04 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB414912196D096005D9B04 /* MainVCSettings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BF01F7F82191D0CC008668A4 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		BF01F7FA2191D0D7008668A4 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
 		BF01F7FC2191D0E0008668A4 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		BFB414902196D096005D9B04 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		BFB414912196D096005D9B04 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,8 @@
 		BF01F7EC2191CED3008668A4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BFB414912196D096005D9B04 /* MainVCSettings.json */,
+				BFB414902196D096005D9B04 /* NullViewController.swift */,
 				BF01F7F22191D036008668A4 /* MainViewController.swift */,
 			);
 			path = Main;
@@ -307,6 +313,7 @@
 			files = (
 				BF01F7C62191C8ED008668A4 /* LaunchScreen.storyboard in Resources */,
 				BF01F7C32191C8ED008668A4 /* Assets.xcassets in Resources */,
+				BFB414932196D096005D9B04 /* MainVCSettings.json in Resources */,
 				BF01F7C12191C8EA008668A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +345,7 @@
 				BF01F7F32191D036008668A4 /* MainViewController.swift in Sources */,
 				BF01F7BC2191C8EA008668A4 /* AppDelegate.swift in Sources */,
 				BF01F7FD2191D0E0008668A4 /* MessageTableViewController.swift in Sources */,
+				BFB414922196D096005D9B04 /* NullViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
